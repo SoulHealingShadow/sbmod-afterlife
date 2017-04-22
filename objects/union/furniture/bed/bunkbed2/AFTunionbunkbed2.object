@@ -1,0 +1,69 @@
+{
+  "objectName" : "afterlife_unionbunkbed2",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Standard bunk bed for Union recruits.",
+  "shortdescription" : "Union Recruit Bunk Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 0,
+
+  "apexDescription" : "An uncomfortable bunk bed.",
+  "avianDescription" : "This bunk bed looks uncomfortable.",
+  "floranDescription" : "Floran iss used to worsse ssleeping conditions.",
+  "glitchDescription" : "Nostalgic. I remember when I slept on one of these during my training.",
+  "humanDescription" : "A Union bunk bed for recruits, designed to be as cheap as possible.",
+  "hylotlDescription" : "These remind me of my time at the Protectorate academy.",
+  "novakidDescription" : "A fancy lookin' bunk bed, yet quite uncomfortable.",
+
+  "inventoryIcon" : "AFTunionbunkbed2icon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "AFTunionbunkbed2.png:<color>", "fullbright" : true }, { "image" : "AFTunionbunkbed2lit.png:<color>" } ],
+	  "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "sitCoverImage" : "/objects/union/furniture/bed/bunkbed2/AFTunionbunkbed2cover.png",
+	  "sitPosition" : [-8, 12],
+	  "sitFlipDirection" : true,
+	  
+	  "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "AFTunionbunkbed2.png:<color>", "fullbright" : true }, { "image" : "AFTunionbunkbed2lit.png:<color>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "sitCoverImage" : "/objects/union/furniture/bed/bunkbed2/AFTunionbunkbed2cover.png",
+	  "sitPosition" : [-15, 12],
+	  "sitFlipDirection" : true,
+	  
+	  "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+	
+  ],
+
+  "objectType" : "loungeable",
+  
+  
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "lightColor" : [38, 114, 128],
+ 
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}
